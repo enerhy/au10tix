@@ -36,6 +36,7 @@ The classification task includes dataset preparation, data exploration, model tr
 
 Main files:
 
+- `report.pdf` - report for the assignment
 - `classification/classification.py` - training script for the gender and race classifier.
 - `classification/predict.py` - inference script for running predictions with a trained checkpoint.
 - `classification/models` - directory contains networks.
