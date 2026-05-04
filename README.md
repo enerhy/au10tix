@@ -71,7 +71,7 @@ cd classification
 python classification.py --config classification-config.yaml
 ```
 
-The default config uses `utkface_v2.csv`. Training requires the image paths referenced by the CSV to exist locally.
+The default config uses `utkface_v2.csv`. Training requires the image paths referenced by the CSV to exist locally. Currently, the dataset contains absolute paths - need to be changed and potentially the classification scripts adapted.
 
 ## Predict
 
