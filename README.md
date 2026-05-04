@@ -38,18 +38,19 @@ Main files:
 
 - `classification/classification.py` - training script for the gender and race classifier.
 - `classification/predict.py` - inference script for running predictions with a trained checkpoint.
-- `classification/create_csv.py` - helper script for creating UTKFace metadata CSV files.
+- `classification/models` - directory contains networks.
+- `classification/create_csv.py` - this helper script is only for creating a sample csv for testing the training script. The construction of the dataset for the real training is performed within the notebook. 
 - `classification/utkface_v2.csv` - final UTKFace metadata CSV used by the default training configuration.
-- `face_classification/utkf_data_explor_clean.ipynb` - cleaned UTKFace exploration notebook.
+- `face_classification/utkf_data_explor_clean.ipynb` - notebook for exploration and cleaning dataset, dataset preparation, samples tagging and prediction.
 
 ## Repository Contents
 
 - `landmarks.ipynb` - face landmark checks, exploration, geometry calculation, and FiftyOne/Voxel51 integration.
 - `face_position_calculation.md` - readable explanation of the face geometry calculations.
 - `classification/` - gender and race classification training, prediction, configuration, and model wrapper code.
-- `classification/classification-config.yaml` - default classification training configuration.
+- `classification/classification-config.yaml` - default classification training configuration and file to be adjusted to alter training parameters.
 - `classification/utkface_v2.csv` - final UTKFace dataset metadata CSV kept for review.
-- `face_classification/utkf_data_explor_clean.ipynb` - cleaned UTKFace exploration notebook.
+- `face_classification/utkf_data_explor_clean.ipynb` - notebook for exploration and cleaning dataset, dataset preparation, samples tagging and prediction.
 - `assets/face_rejected.png` - example visual asset used by the landmark notebook/documentation.
 
 Raw image folders, sample data, assignment materials, MLflow runs, checkpoints, saved models, archives, and older CSV exports are intentionally excluded from Git.
