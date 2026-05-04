@@ -1,0 +1,62 @@
+epochs: 10
+batch_size: 128
+dataloader:
+  num_workers: 4
+  pin_memory: True
+  persistent_workers: True
+  prefetch_factor: 2
+training:
+  amp: True
+  cudnn_benchmark: True
+  channels_last: True
+csv_path: 'utkface_v2.csv'
+dataset:
+  name: UTKFace
+  version: utkface_v2
+  source: voxel_export
+mlflow:
+  tracking_uri: sqlite:///mlflow.db
+  artifact_location: ./mlruns
+  experiment_name: multihead_classification
+  log_pytorch_model: False
+checkpoint:
+  output_dir: ./out
+  best_model_filename: best_model.pt
+  resume_from:
+  strict_load: True
+  load_optimizer: True
+  load_scheduler: True
+  load_scaler: True
+  continue_epoch_count: True
+model:
+  name: Resnet18
+  train_start: layer4
+  pretrained: True 
+optimizer:
+  type: Adam
+  learning_rate: 1e-3
+  lr_scheduler_type: reduce-on-plateau
+  lr_scheduler_patience: 3
+loss:
+  # Options:
+  # - OriginalUncertaintyMultiTaskLoss: current implementation, can produce negative combined loss
+  # - PaperUncertaintyMultiTaskCELoss: Kendall-style CE uncertainty loss with 0.5 * log variance
+  # - SummedMultiTaskCELoss: gender CE + race CE
+  # - FixedWeightedMultiTaskCELoss: fixed task weights below
+  type: OriginalUncertaintyMultiTaskLoss
+  class_weights: True
+  task_weights:
+    gender: 1.0
+    race: 3.0
+augment:
+  train: True
+  valid: False
+  horizontal_flip:
+    p: 0.5
+  color_jiter:
+    brightness: 0.15
+    contrast: 0.1
+    saturation: 0.3
+    hue: 0.0
+  random_rotation:
+    degrees: 0

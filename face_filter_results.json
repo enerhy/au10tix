@@ -1,0 +1,256 @@
+{
+  "c:\\Users\\anspa\\au10tix\\data\\10001779696_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "invalid mouth-nose ratio: 0.24"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10001847216_1.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10002062985_3.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10002192495_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10003233084_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10003930603_3.jpg": {
+    "rejected": true,
+    "reasons": [
+      "invalid mouth-nose ratio: 0.24"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10004192793_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -0.536"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10004847784_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -0.311"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\1000634364_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10010330783_2.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -0.570"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10010835793_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10012353886_1.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -1.000"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10012492814_2.jpg": {
+    "rejected": true,
+    "reasons": [
+      "invalid mouth-nose ratio: 0.16"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10013838883_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -0.331"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10013838883_1.jpg": {
+    "rejected": true,
+    "reasons": [
+      "invalid mouth-nose ratio: 0.28"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10013977716_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10014032136_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10014918624_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10017388645_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "invalid mouth-nose ratio: 0.27"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10020431823_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10020798645_2.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10020932873_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10022101856_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "invalid mouth-nose ratio: 0.30"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\1002498436_1.jpg": {
+    "rejected": true,
+    "reasons": [
+      "invalid mouth-nose ratio: 0.16"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10027364914_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "invalid mouth-nose ratio: 0.22"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10027496235_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10032602356_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: 0.452"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10032967503_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10034054603_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10036148024_1.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -0.386",
+      "invalid mouth-nose ratio: 0.25"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10037706105_2.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: 0.532"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10039506196_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -0.328"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10040535885_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -1.000"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10045564595_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -0.601"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10045837635_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "invalid mouth-nose ratio: 0.23"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10045870384_16.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -0.344",
+      "invalid mouth-nose ratio: 0.17"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10046373856_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -0.597"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10047178694_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: 0.462",
+      "invalid mouth-nose ratio: 0.21"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10047515466_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "invalid mouth-nose ratio: 0.22"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10048490403_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10050314753_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: 0.362"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10050314753_6.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10051781696_0.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\100558324_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "invalid mouth-nose ratio: 0.27"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10057967623_1.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: 0.545"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10058040555_0.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -0.947",
+      "roll too large: -18.74\u00b0"
+    ]
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10058040555_1.jpg": {
+    "rejected": false,
+    "reasons": []
+  },
+  "c:\\Users\\anspa\\au10tix\\data\\10058344554_3.jpg": {
+    "rejected": true,
+    "reasons": [
+      "yaw too large: -0.577"
+    ]
+  }
+}

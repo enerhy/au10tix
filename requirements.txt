@@ -1,0 +1,15 @@
+efficientnet-pytorch
+mlflow
+numpy
+pandas
+Pillow
+PyYAML
+torch
+torchvision
+tqdm
+
+# Notebook/exploration dependencies
+fiftyone
+matplotlib
+opencv-python
+scikit-learn

@@ -1,0 +1,37 @@
+epochs: 25 # the maximum epochs for the training to be performed
+batch_size: 64
+model_path: #'./out/model100.pt'
+train_percentage: 0.9
+model:
+  name: Resnet101 #Resnet101 # Resnet101, EfficientNet, Resnet18, Resnet50
+  train_start: layer4 # For Resnet101 : layer4 # conv1 - Resnet152
+  type_efficientnet: # If EfficientNet efficientnet-b0 / efficientnet-b2
+  pretrained: True # True/False
+  custom_weights_path: # /media/imagga/other/mlflow_docker/mlruns/91/cc053032f92248948c0c7d44f94bf2de/artifacts/best_model/model90.pt
+loss:
+  type: WeightedCrossEntropy # CrossEntropy, WeightedCrossEntropy
+optimizer:
+  type: Adam # SGD, Adam
+  momentum: 0.9 # relevant for SGD
+  learning_rate: 1e-3
+  lr_schduler_type: reduce-on-plateau # reduce-on-plateau, stepwise
+l2: 0.0002 # or 0.0 for no L2 regularization
+augment:
+  train: True
+  valid: False
+  horizontal_flip:
+    p: 0.5
+  vertical_flip:
+    p: 0.0
+  color_jiter:
+    brightness: 0.15
+    contrast: 0.1
+    saturation: 0.3
+    hue: 0.0
+  random_rotation:
+    degrees: 25
+  random_affine:
+    degrees: [-5, 5]
+    translate: [0.02, 0.02]
+    scale: [0.95, 1.05]
+    shear: [-5, 5]

@@ -1,0 +1,59 @@
+# Raw and sample data
+data/
+UTKFace/
+**/UTKFace/
+sample_data/
+**/sample_data/
+assignment/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# CSV data: keep only the final reviewed dataset
+*.csv
+!classification/utkface_v2.csv
+
+# Training outputs, experiments, and saved models
+classification/out/
+classification/mlruns/
+classification/mlflow.db
+mlruns/
+outputs/
+runs/
+checkpoints/
+models/
+saved_models/
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.keras
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.sav
+*.model
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
